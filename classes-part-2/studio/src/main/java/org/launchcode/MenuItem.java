@@ -28,5 +28,8 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public void add(MenuItem item) {
+    }
 }
 
