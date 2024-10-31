@@ -24,7 +24,7 @@ public class ArrayListGradebook {
 
         // Get student grades
         for (String student : students) {
-            System.out.print("Grade for " + student + ": ");
+            System.out.println("Grade for " + student + ": ");
             Double grade = input.nextDouble();
             grades.add(grade);
         }

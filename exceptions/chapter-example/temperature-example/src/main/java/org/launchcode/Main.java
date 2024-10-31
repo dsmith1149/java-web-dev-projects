@@ -13,7 +13,7 @@ public class Main {
         fahrenheit = input.nextDouble();
         input.close();
 
-        Temperature currentTemp = new Temperature();
+        Temperature currentTemp = new Temperature("");
         currentTemp.setFahrenheit(fahrenheit);
     }
 }
